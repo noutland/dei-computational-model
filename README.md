@@ -39,19 +39,39 @@ The DEI computational model reveals several critical insights:
   - viridis
   - patchwork
   - scales
+- Git (for GitHub repository management)
 
 ### Installation
 
-1. Clone this repository:
+#### Option 1: Clone from GitHub
 ```bash
 git clone https://github.com/yourusername/dei-computational-model.git
 cd dei-computational-model
 ```
 
-2. Install required R packages:
-```R
-install.packages(c("tidyverse", "viridis", "patchwork", "scales"))
-```
+#### Option 2: Set up from scratch
+1. Download or extract this repository to your computer
+2. Navigate to the repository directory
+3. Run `Rscript setup.R` to install required packages
+
+### GitHub Repository Setup
+
+This repository includes helper scripts to manage the GitHub repository:
+
+1. **GITHUB_SETUP.md**: Detailed instructions for setting up a GitHub repository
+2. **github_push.sh**: Interactive shell script to help push to GitHub:
+   ```bash
+   # Make executable if needed
+   chmod +x github_push.sh
+   
+   # Run the script
+   ./github_push.sh
+   ```
+   This script will:
+   - Prompt for your GitHub username
+   - Set up the appropriate remote URL
+   - Guide you through pushing to GitHub
+   - Provide next steps and troubleshooting
 
 ## Usage
 
