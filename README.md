@@ -1,6 +1,6 @@
 # DEI Computational Model
 
-This repository contains a computational model for simulating and analyzing Diversity, Equity, and Inclusion (DEI) initiatives within organizations. The model uses a combination of system dynamics and network analysis approaches to understand the complex interrelationships between organizational culture, leadership support, and DEI program outcomes.
+Here we develop a computational model for simulating and analyzing Diversity, Equity, and Inclusion (DEI) initiatives within organizations. The model uses a combination of system dynamics and network analysis approaches to understand the complex interrelationships between organizational culture, leadership support, and DEI program outcomes.
 
 ## Repository Structure
 
